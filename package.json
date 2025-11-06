@@ -2,7 +2,10 @@
   "name": "web-kehitys2025",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,6 +15,12 @@
   "devDependencies": {
     "@eslint/js": "^9.39.0",
     "eslint": "^9.39.0",
-    "globals": "^16.5.0"
+    "globals": "^16.5.0",
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "D": "^1.0.0",
+    "express": "^5.1.0"
   }
 }
